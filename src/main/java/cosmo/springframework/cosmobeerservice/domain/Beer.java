@@ -1,4 +1,4 @@
-package cosmo.springframework.cosmobeerservice.web.domain;
+package cosmo.springframework.cosmobeerservice.domain;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -7,7 +7,6 @@ import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.hibernate.dialect.Ingres9Dialect;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

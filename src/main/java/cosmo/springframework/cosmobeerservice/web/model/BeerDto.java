@@ -28,6 +28,10 @@ public class BeerDto {
     private OffsetDateTime createdDate;
     @Null
     private OffsetDateTime lastModifiedDate;
+
+    // the above are readonly properties on the client side and
+    //  we dont want the client to update it hence annotated with @Null
+
     @NotBlank
     private String beerName;
     @NotNull
@@ -39,5 +43,6 @@ public class BeerDto {
     @NotNull
     private BigDecimal price;
     private  Integer quantityOnHand;
+
 
 }

@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/prpramod/cosmo-beer-service.svg?style=svg)](https://circleci.com/gh/prpramod/cosmo-beer-service)
 ## Cosmo Beer Service 
 Spring Boot Microservice
 ## Documentation 

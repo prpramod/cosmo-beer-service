@@ -29,7 +29,7 @@ public class BeerController {
 
     // Update beer
 
-    @PutMapping
+    @PutMapping("/{beerId}")
     public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId,@RequestBody BeerDto beerDto){
 
         // todo impl
